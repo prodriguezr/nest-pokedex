@@ -5,6 +5,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { Pokemon, PokemonSchema } from './entities';
 
 @Module({
+	exports: [MongooseModule],
 	controllers: [PokemonController],
 	providers: [PokemonService],
 	imports: [

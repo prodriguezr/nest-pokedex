@@ -17,10 +17,16 @@ yarn install
 npm i -g @nestjs/cli
 ```
 
-4.- Raise the local Mongo database container:
+4. Raise the local Mongo database container:
 
 ```
 docker-compose up -d
+```
+
+5. Build/Rebuild the database with the seed
+
+```
+http://localhost:3000/api/v1/seed
 ```
 
 ## Used Stack
