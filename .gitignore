@@ -37,3 +37,5 @@ lerna-debug.log*
 mongoDB/
 
 .env
+
+yarn.lock
